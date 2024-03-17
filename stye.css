@@ -1,0 +1,76 @@
+/* Estilos para os botões */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ffc107;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #ffdb5a;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ffdb5a; /* Amarelo mais claro ao passar o mouse */
+}
+
+/* Estilo adicional para o botão "QUERO VENDER TODOS OS DIAS" */
+button:nth-of-type(1) {
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Estilo adicional para os botões "Quero me inscrever agora", "OK ME CONVENCEU" e "GARANTIR UMA VAGA" */
+button:nth-of-type(2),
+button:nth-of-type(5),
+button:nth-of-type(7),
+button:nth-of-type(9),
+button:nth-of-type(11),
+button:nth-of-type(13),
+button:nth-of-type(15),
+button:nth-of-type(17) {
+    margin-top: 20px; /* Espaçamento superior */
+}
